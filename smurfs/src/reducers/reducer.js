@@ -1,4 +1,4 @@
- import actions from '../actions/index'
+ import actions from '../actions/actions'
 
  function reducer(state , action) {
     return {
@@ -21,4 +21,4 @@
   Components can then read your store as, `state` and not `state.fooReducer`.
 */
 
-module.exports= reducer;
+export default reducer;

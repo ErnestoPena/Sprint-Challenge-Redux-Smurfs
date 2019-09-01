@@ -1,0 +1,17 @@
+.smurf-card {
+    color: darkcyan;
+    text-transform: uppercase;
+    width: 10%;
+    height: auto;
+}
+
+.title {
+    color: lightblue;
+    font-size: 2%;
+    text-transform: uppercase;
+}
+
+.other-data {
+    background-color: crimson;
+    color: lightgreen;
+}
