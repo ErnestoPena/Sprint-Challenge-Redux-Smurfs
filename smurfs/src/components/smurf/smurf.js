@@ -1,7 +1,7 @@
 import React from 'react';
 import './smurf.css'
 
-function smurfs(props) {
+function Smurfs(props) {
     return (
         <div className='smurf-cards'>
             <div className='smurf-name'>{props.smurfs.name}</div>
@@ -12,3 +12,5 @@ function smurfs(props) {
         </div>
     )
 }
+
+export default Smurfs;
