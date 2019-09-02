@@ -1,16 +1,17 @@
 import React from 'react';
-import './smurf.css'
+import './smurf.css';
 
-function Smurfs(props) {
-    return (
-        <div className='smurf-cards'>
-            <div className='smurf-name'>{props.smurfs.name}</div>
-            <div className='other-data'>
-                <p>{props.smurfs.age}</p>
-                <p>{props.smurfs.height}</p>
-            </div>
-        </div>
-    )
-}
+const Smurf = props => {
+	return (
+		<div className="smurf-card">
+			<div className="other-data">
+                <p className="title">Name: {props.smurf.name}</p>
+                <p>Age: {props.smurf.age}</p>
+                <p>Height: {props.smurf.height}</p>
 
-export default Smurfs;
+			</div>
+		</div>
+	);
+};
+
+export default Smurf;
