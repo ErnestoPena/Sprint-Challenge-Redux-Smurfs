@@ -1,0 +1,35 @@
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.form-class {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: auto;
+    background-color: antiquewhite;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 1%;
+    padding: 0.1%;
+}
+
+.form-inputs {
+    margin: 1%;
+    height: 30px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.submit {
+    width: 100px;
+    margin: 1%;
+    height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    vertical-align: middle;
+}

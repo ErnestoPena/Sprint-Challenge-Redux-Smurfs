@@ -1,0 +1,24 @@
+.smurf-card {
+    display: flex;
+    color:lightgreen;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin: 0 1% 0 1%;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    color: lightgreen;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-data {
+    background-color: crimson;
+    color: lightgreen;
+    padding: 5px;
+}
